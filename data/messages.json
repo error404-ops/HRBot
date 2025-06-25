@@ -1,0 +1,56 @@
+{
+  "helpCommandResponse": {
+    "header": "<#00ff00>Commands List:",
+    "commands": {
+      "!emotelist": "See a list of all available emotes.",
+      "emotename": "Perform an emote in a continuous loop.",
+      "emotename @user": "Make another user perform an emote.",
+      "!stop": "Stop your current emote loop.",
+      "!f1": "Teleport to Floor 1.",
+      "!f2": "Teleport to Floor 2.",
+      "!f3": "Teleport to Floor 3.",
+      "!myid": "See your Highrise User ID.",
+      "!goto @user": "Teleport to another user's location."
+    },
+    "footer": "For mod/owner commands, type '!mod' (if you have permission)."
+  },
+  "modCommandResponse": {
+    "header": "<#FFA500>Mod/Owner commands:",
+    "modCommands": {
+      "!t1 @user": "Teleport user to set location.",
+      "!walk": "bot walk to your location.",
+      "!setbot": "Set the bot permanent spawn point.",
+      "!freeze @user": "Lock a user in place.",
+      "!unfreeze @user": "Unlock a user's movement.",
+      "!k @user": "Kick a user from the room.",
+      "!b @user": "Ban a user from the room 1 hour.",
+      "!m @user": "Mute a user in the room 1 hour.",
+      "!vip": "Teleport to VIP area.",
+      "!invite": "Send room invites to users (via DM).",
+      "!boost <amount>": "Buy room boosts using bot's wallet.",
+      "!voice <amount>": "Buy voice time using bot's wallet.",
+      "!copy @user": "Copy another user's outfit.",
+      "!color <category> <1-53>": "Change bot's outfit color.",
+      "!equip <item_id>": "Equip an item on the bot.",
+      "!remove <category>": "Remove an item from bot's outfit.",
+      "!idban @user": "Block user from using bot commands.",
+      "!idunban @user": "Unblock user from using bot commands.",
+      "!idmute @user": "Mute user's chat from bot for 15 min.",
+      "!idunmute @user": "Unmute user's chat from bot."
+      
+    },
+
+    "ownerHeader": "\n<#FF0000>Owner commands:",
+    "ownerCommands": {
+      "!role @user": "Assign mod role to a user.",
+      "!unrole @user": "Remove mod role from a user.",
+      "!addowner @user": "Assign owner role to a user.",
+      "!removeowner @user": "Remove owner role from a user.",
+      "!list": "List all mods and owners.",
+      "!bad <word>": "Add a forbidden word to the list.",
+      "!rbad <word>": "Remove a forbidden word from the list.",
+      "!listbadword": "List all forbidden words."
+    }
+  },
+  "emoteListHeader": "emotelist\n"
+}
