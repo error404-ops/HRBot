@@ -4,7 +4,16 @@ const colors = require('colors'); // This line is crucial for colored console ou
 const fs = require('fs').promises; // For file operations (async)
 const { v4: uuidv4 } = require('uuid'); // For generating unique IDs
 const axios = require('axios'); // For OpenRouter API
+const app = express();
+const PORT = process.env.PORT || 3000;
+app.get("/", (req, res) => {
+  res.send("Bot is alive!");
+});
 
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+  client.connect();
+});
 // --- Configuration & Data Loading ---
 let config;
 let permissions;
